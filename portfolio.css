@@ -226,6 +226,10 @@ footer {
         height: 50vh; /* Reduce height on smaller screens */
     }
 
+    #hero .container {
+        padding: 10px;
+    }
+
     .header-content {
         flex-direction: column;
         align-items: flex-start;
