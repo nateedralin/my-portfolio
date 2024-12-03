@@ -60,13 +60,12 @@ nav a {
 
 #hero {
     position: relative; /* To position the overlay correctly */
-    background: url('backfit2.jpg') no-repeat center center; /* Replace with the path to your image */
+    background: url('backfit2.jpg') no-repeat center center; /* Replace with the path to your transparent image */
     background-size: cover; /* Ensure the image covers the entire section */
     text-align: center;
     padding: 100px 0;
     color: #fff; /* White text for hero section */
     animation: fadeIn 2s ease-in-out;
-    height: 70vh; /* Make sure the height is set */
 }
 
 #hero::before {
