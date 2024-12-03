@@ -224,6 +224,7 @@ footer {
 
 @media (max-width: 480px) {
     #hero {
+        background-size: contain; /* Ensure the image is visible on smaller screens */
         background-attachment: scroll; /* Change background attachment for mobile */
         height: auto; /* Adjust height for smaller screens */
         padding: 60px 20px;
