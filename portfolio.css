@@ -177,6 +177,29 @@ footer {
     animation: fadeIn 2s ease-in-out;
 }
 
+.project-section, .work-section, .leadership-section {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.project-title, .work-title, .leadership-title {
+    font-size: 1.5em;
+    color: #4b0082; /* Indigo for titles */
+    text-decoration: none;
+}
+
+.project-description, .work-description, .leadership-description {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .header-content {
@@ -187,6 +210,11 @@ footer {
     nav ul {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .project-section, .work-section, .leadership-section {
+        width: 90%; /* Adjust the width for better fit on medium screens */
+        margin: 20px auto; /* Center the sections */
     }
 
     .image-container {
@@ -207,6 +235,11 @@ footer {
     nav ul {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .project-section, .work-section, .leadership-section {
+        width: 100%; /* Full width on small screens */
+        margin: 20px auto; /* Center the sections */
     }
 
     .image-container {
