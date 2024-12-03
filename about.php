@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Nathaniel Edralin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="name-and-nav">
+                <h1>Nathaniel Edralin</h1>
+                <nav>
+                    <ul>
+                        <li><a href="portfolio.html">Home</a></li>
+                        <li><a href="#life-gallery">My Life Gallery</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <a href="https://www.linkedin.com/in/nathaniel-edralin" class="linkedin-icon" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I am Nathaniel Edralin, a current Junior majoring in Information Technology attending the New Jersey Institute of Technology! Some relevant coursework I went through are Designing UI / UX User Needs, Internet Applications, Information Design Techniques, Systems Administration, Information Systems, Educational Software Design, Advanced Programming for Information Technology, and Networking! My future career goal is to utilize my background in IT as a backdoor into the Fashion Industry! 👕🎧👖</p>
+
+        <h3>Some of My Hobbies / Interests!</h3>
+        <ul class="hobbies-list">
+            <li><strong>Fashion:</strong> I believe FASHION is a form of art! Composing outfits and integrating fashion into my everyday life based on how I am feeling that day, the weather, and other factors is a major hobby that I have!</li>
+            <li><strong>Art:</strong> I believe that life imitates art. This philosophical idea that real, physical events resemble works of art / fiction is something that I stand by! I love going to museums, taking pictures, and finding the beauty in everything. Life IS art!</li>
+        </ul>
+    </section>
+
+    <h2 id="life-gallery" class="gallery-header">My Life Gallery</h2>
+    <div class="image-gallery">
+        <div class="image-container">
+            <img src="fit1.jpg" alt="Outfit 1">
+            <div class="image-description">
+                Outfit 1. This picture was featured on an Instagram page with over 100k followers (@csthelabel)!
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="fit2.jpg" alt="Outfit 2">
+            <div class="image-description">
+                Outfit 2. Another outfit.
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="fit3.jpg" alt="Outfit 3">
+            <div class="image-description">
+                Outfit 3. A chunky scarf for the winter season. (I LOVE this shade of red!)
+            </div>
+        </div>
+    </div>
+
+    <footer> 
+        <div class="container"> 
+            <p>&copy; 2024 Nathaniel Edralin.</p> 
+        </div> 
+    </footer>
+</body>
+</html>

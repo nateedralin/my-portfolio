@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathaniel Edralin's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="name-and-nav">
+                <h1>Nathaniel Edralin</h1>
+                <nav>
+                    <ul>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#leadership">Leadership</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <a href="https://www.linkedin.com/in/nathaniel-edralin" class="linkedin-icon" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Hello, I am Nathaniel (Nate) Edralin!</h2>
+            <p>Exploring the world of Information Technology, using creativity and innovation! My future career goal is to utilize my background in IT as a backdoor into the Fashion Industry!👕🎧👖</p>
+            <a href="contact.php" class="cta-button">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project-section">
+            <h3 class="project-title"><a href="https://www.youtube.com/watch?v=23Mc0f8fUXM">Chatroom Project (Java)</a></h3>
+            <ul class="project-description">
+                <li>Implemented and input commands into multiple terminals, creating a functional multi-user chatroom.</li>
+                <li>Developed a codebase that supported multiple ClientUIs, simulating an online chatroom environment.</li>
+                <li>Created a Final Demo video, effectively explaining the project’s execution and functionalities.</li>
+            </ul>
+        </div>
+        <div class="project-section">
+            <h3 class="project-title"><a href="https://npe6.itch.io/sprint3nateedralin">Unity Game Project (Unity, C#)</a></h3>
+            <ul class="project-description">
+                <li>Utilized Unity Game Engine to develop interactive game mechanics within a first-person shooter game.</li>
+                <li>Constructed multiple C# scripts to implement various game features and mechanics.</li>
+            </ul>
+        </div>
+        <div class="project-section">
+            <h3 class="project-title"><a href="https://web.njit.edu/~npe6/project03.html">Perfect Plumber Pros Mock Website Project (HTML/CSS, PHP, JavaScript, MySQL)</a></h3>
+            <ul class="project-description">
+                <li>Developed a mock website to dynamically display data-driven tables, leveraging MySQL for efficient data management and retrieval.</li>
+                <li>Implemented a responsive frontend using HTML, CSS, and JavaScript, seamlessly integrating with a PHP backend.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="work" class="container">
+        <h2>Work Experience</h2>
+        <div class="work-section">
+            <h3 class="work-title">Abercrombie & Fitch - Brand Representative - Short Hills, New Jersey</h3>
+            <p>July 2024 - Present</p>
+            <ul class="work-description">
+                <li>Assist over 20 customers per shift in finding or selecting products, providing personalized recommendations to enhance customer satisfaction.</li>
+                <li>Utilize a point of sales system to process transactions, improving checkout efficiency.</li>
+            </ul>
+        </div>
+        <div class="work-section">
+            <h3 class="work-title">DSW - Sales Associate - Union, New Jersey</h3>
+            <p>July 2023 - July 2024</p>
+            <ul class="work-description">
+                <li>Aided customers in finding or selecting from a range of products as well as providing personal recommendations, increasing personal store sales by 10%.</li>
+                <li>Provided customer service on a computerized register, utilizing different computational skills and attended to over 30 customers per shift.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="leadership" class="container">
+        <h2>Leadership Experience</h2>
+        <div class="leadership-section">
+            <h3 class="leadership-title">Filipino Student Association of NJIT (FINEST) - External Vice President</h3>
+            <p>April 2024 - Present</p>
+            <ul class="leadership-description">
+                <li>Lead the outreach efforts for Reign or Shine, an annual event hosted by FINEST with around 1000 attendees each year.</li>
+                <li>Spearhead the planning and execution for large district-wide events, advocating for a collaborative community among several organizations.</li>
+            </ul>
+        </div>
+        <div class="leadership-section">
+            <h3 class="leadership-title">Filipino Student Association of NJIT (FINEST) - External Public Relations Officer</h3>
+            <p>April 2023 - April 2024</p>
+            <ul class="leadership-description">
+                <li>Created an atmosphere for the organization to interact with other external organizations.</li>
+                <li>Collected and provided information to FINEST on the Filipino Intercollegiate Networking Dialogue, Inc.</li>
+                <li>Served as the liaison between FINEST and external organizations that wish to collaborate with FINEST.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer> 
+        <div class="container"> 
+            <p>&copy; 2024 Nathaniel Edralin.</p> 
+        </div> 
+    </footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const sections = document.querySelectorAll('section');
+        sections.forEach((section, index) => {
+            setTimeout(() => {
+                section.style.opacity = 1;
+            }, index * 300); // Staggered delay for each section
+        });
+    });
+    </script>
+</body>
+</html>
