@@ -60,13 +60,14 @@ nav a {
 
 #hero {
     position: relative; /* To position the overlay correctly */
-    background: url('backfit2.jpg') no-repeat center center fixed; /* Use the backfit2.jpg image */
+    background: url('backfit2.jpg') no-repeat center center; /* Use the backfit2.jpg image */
     background-size: cover; /* Ensure the image covers the entire section */
+    background-attachment: fixed; /* Keep the background fixed */
     text-align: center;
     padding: 100px 0;
     color: #fff; /* White text for hero section */
     animation: fadeIn 2s ease-in-out;
-    height: 70vh; /* Set the height of the hero section */
+    min-height: 70vh; /* Set a minimum height for the hero section */
 }
 
 #hero::before {
@@ -223,7 +224,9 @@ footer {
 
 @media (max-width: 480px) {
     #hero {
-        height: 50vh; /* Reduce height on smaller screens */
+        background-attachment: scroll; /* Change background attachment for mobile */
+        height: auto; /* Adjust height for smaller screens */
+        padding: 60px 20px;
     }
 
     #hero .container {
