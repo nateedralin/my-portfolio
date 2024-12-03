@@ -60,9 +60,8 @@ nav a {
 
 #hero {
     position: relative; /* To position the overlay correctly */
-    background: url('backfit2.jpg') no-repeat center center; /* Use the backfit2.jpg image */
+    background: url('backfit2.jpg') no-repeat center center fixed; /* Use the backfit2.jpg image */
     background-size: cover; /* Ensure the image covers the entire section */
-    background-attachment: scroll; /* Fix the background for all screen sizes */
     text-align: center;
     padding: 100px 0;
     color: #fff; /* White text for hero section */
