@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Parkinsans', Arial, sans-serif;
     color: #415A77; /* Medium blue-gray for text */
@@ -212,20 +216,20 @@ footer {
     }
 
     .project-section, .work-section, .leadership-section {
-        width: 90%; /* Adjust the width for better fit on medium screens */
-        margin: 20px auto; /* Center the sections */
+        width: 90%; 
+        margin: 20px auto; 
     }
 
     .image-container {
-        flex: 1 1 calc(45% - 20px); /* Adjust for medium screens */
+        flex: 1 1 calc(45% - 20px); 
     }
 }
 
 @media (max-width: 480px) {
     #hero {
-        background-position: center; /* Ensure the image centers on smaller screens */
-        background-attachment: scroll; /* Change background attachment for mobile */
-        height: auto; /* Adjust height for smaller screens */
+        background-position: center; 
+        background-attachment: scroll; 
+        height: auto; 
         padding: 60px 20px;
     }
 
@@ -244,8 +248,8 @@ footer {
     }
 
     .project-section, .work-section, .leadership-section {
-        width: 100%; /* Full width on small screens */
-        margin: 20px auto; /* Center the sections */
+        width: 100%; 
+        margin: 20px auto; 
     }
 
     .image-container {
